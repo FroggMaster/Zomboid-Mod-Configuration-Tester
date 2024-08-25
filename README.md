@@ -4,7 +4,6 @@
 
 1. **Prepare Your Config File:**
    - Copy your server configuration file (`.ini`) into the same directory as the script.
-   - Rename the file from `.ini` to `.txt` (Note: The script will be updated in the future to support both `.txt` and `.ini` formats).
 
 2. **Run the Script:**
       - Run the following command to install all the packages listed in requirements.txt:
