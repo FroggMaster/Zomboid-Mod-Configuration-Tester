@@ -9,7 +9,7 @@ def read_items_from_files():
     mod_ids = []
     
     for filename in os.listdir(current_directory):
-        if filename.endswith(".txt"):
+        if filename.endswith(".txt") or filename.endswith(".ini"):
             file_path = os.path.join(current_directory, filename)
             try:
                 with open(file_path, 'r') as file:
@@ -112,7 +112,7 @@ def check_urls(workshop_items, mod_ids):
         for mod_id in not_found_mod_ids:
             print(mod_id)
 
-# Read workshop items and mod IDs from all .txt files in the directory
+# Read workshop items and mod IDs from all .txt and .ini files in the directory
 workshop_items, mod_ids = read_items_from_files()
 
 # Run the URL check
