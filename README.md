@@ -6,7 +6,7 @@
    - Copy your server configuration file (`.ini`) into the same directory as the script.
 
 2. **Run the Script:**
-      - Run the following command to install all the packages listed in requirements.txt:
+   - Run the following command to install all the packages listed in requirements.txt:
      `pip install -r requirements.txt`
    - Execute the script by running `python TestMods.py`.
 
