@@ -7,10 +7,8 @@
    - Rename the file from `.ini` to `.txt` (Note: The script will be updated in the future to support both `.txt` and `.ini` formats).
 
 2. **Run the Script:**
-      - Run the following command to install all the packages listed in `requirements.txt`:
-     ```bash
-     pip install -r requirements.txt
-     ```
+      - Run the following command to install all the packages listed in requirements.txt:
+     `pip install -r requirements.txt`
    - Execute the script by running `python TestMods.py`.
 
 ## What the Script Does
