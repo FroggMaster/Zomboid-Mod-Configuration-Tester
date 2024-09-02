@@ -205,9 +205,8 @@ def check_urls(workshop_items, mod_ids):
         print("\nWARNING Duplicate Workshop IDs Found in Provided Config:")
         for item_id in duplicate_workshop_items:
             print(item_id)
-    
-    # Note about duplicate entries
-    print("\nNote: You should delete duplicate entries; they will cause configuration conflicts.")
+     # Note about duplicate entries
+        print("\nNote: You should delete duplicate entries; they will cause configuration conflicts.")
 
 if __name__ == "__main__":
     # Parse command-line arguments
